@@ -33,7 +33,7 @@ form{
 main{
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.599);
     height: 900px;
-    width: 1500px;
+    width: 1400px;
     padding: 12px;
     margin: auto;
     background-color: aliceblue;
@@ -57,7 +57,7 @@ h2{
 
 section{
     padding: 5px;
-    width: 1400px;
+    width: 1300px;
     margin: auto;
     margin-bottom: 7px;
     border-radius: 5px;
@@ -169,6 +169,21 @@ section#cadastro > a{
     color: white;
     text-decoration: none;
 }
+
+section#voltar{
+    font-weight: bolder;
+    background-color: #e10b00b3;
+    padding: 10px;
+    width: 203px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+section#voltar > a{
+    color: white;
+    text-decoration: none;
+}
+
 
 footer{
     color: rgb(234, 233, 233);
