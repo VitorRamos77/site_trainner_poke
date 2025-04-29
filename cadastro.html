@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="home.html"><img src="imagens/pokemon_logo.png" alt="logo"></a>
+    </header>
+    <main>
+        <h1>Cadastro de Treinador</h1>
+        <form>
+            <h2>Informações Pessoais</h2>
+            <br>
+            <label for="campo_nome">Nome:</label>
+            <input id="campo_nome" type="text" placeholder="Digite seu nome de treinador" style="width: 173px;" required>
+            <br>
+            <br>
+            <label for="campo_email">E-mail:</label>
+            <input id="campo_email" type="email" placeholder="Digite seu e-mail" style="width: 173px;" required>
+            <br><br>
+            <label for="campo_senha">Senha</label>
+            <input id="campo_senha" type="password" placeholder="Defina uma senha" style="width: 173px;" required>
+            
+            <br><br>
+
+            <h2>Inicial</h2>
+            <br>
+
+            <input id="bulba" type="radio" name="inicial" value="Bulbassauro">
+            <label for="bulba">Bulbassauro</label>
+            <br><br>
+
+            <input id="charma" type="radio" name="inicial" value="Charmander">
+            <label for="charma">Charmander</label>
+            <br><br>
+
+            <input id="squirt" type="radio" name="inicial" value="Squirtle">
+            <label for="squirt">Squirtle</label>
+            <br><br>
+
+            <h2>Itens na mochila</h2>
+            <br>
+
+            <input type="checkbox" id="pocao" name="pocao" value="pocao">
+            <label for="pocao">Poção</label>
+            <br>
+            <br>
+
+            <input type="checkbox" id="pokebola" name="pokebola" value="pokebola">
+            <label for="pocao">Pokebola</label>
+            <br>
+            <br>
+
+            <input type="checkbox" id="Repelente" name="Repelente" value="Repelente">
+            <label for="Repelente">Repelente</label>
+            <br>
+            <br>
+
+            <input type="submit" value="Enviar Cadastro">
+        </form>
+    </main>
+    <footer>
+        <p>Site criado por <a href="https://github.com/VitorRamos77" target="_blank">Vitor Ramos</a></p>
+    </footer>
+</body>
+</html>
